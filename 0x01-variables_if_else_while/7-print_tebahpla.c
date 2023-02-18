@@ -9,12 +9,9 @@
  */
 int main(void)
 {
-int i = 122;
-while (1 > 96)
-  {
-    putchar(i);
-    i--;
-  }
-putchar(10);
+char letter;
+ for (letter = 'z'; letter >= 'a'; letter--)
+   putchar(letter);
+putchar('\n');
 return (0);
 }
