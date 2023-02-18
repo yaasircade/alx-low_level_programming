@@ -9,15 +9,12 @@
  */
 int main(void)
 {
-int i = 0;
-while (i < 48)
-  {
-    if (i < 10)
-      putchar(i + '0');
-    else if (i > 41)
-      putchar(i - 10 + 'A');
-    i++;
-  }
-putchar(10);
+int num;
+char letter;
+ for (num = 0; num < 10; num++)
+   putchar((num % 10) + '0');
+ for (letter = 'a'; letter <= 'f'; leter++)
+   putchar(letter);
+putchar('\n');
 return (0));
 }
