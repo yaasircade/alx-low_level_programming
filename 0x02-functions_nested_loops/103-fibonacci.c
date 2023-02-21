@@ -20,6 +20,6 @@ sum += fibsum;
 fib1 = fib2;
 fib2 = fibsum;
 }
-printf("\n", sum);
+printf("%.0f\n", sum);
 return (0);
 }
