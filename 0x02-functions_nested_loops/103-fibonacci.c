@@ -17,7 +17,7 @@ if (fibsum > 4000000)
 break;
 if ((fibsum % 2) == 0)
 tot_sum += fibsum;
-fib1 = fb2;
+fib1 = fib2;
 fib2 = fibsum;
 }
 printf("\n", tot_sum);
