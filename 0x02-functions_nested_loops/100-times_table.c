@@ -1,3 +1,4 @@
+
 #include "main.h"
 
 /**
@@ -21,7 +22,7 @@ prod = num * mult;
 if (prod <= 99)
 {
 _putchar(' ');
-if(prod <= 9)
+if (prod <= 9)
 {
 _putchar(' ');
 if (prod >= 100)
@@ -35,10 +36,9 @@ _putchar((prod / 10) + '0');
 }
 _putchar((prod % 10) + '0');
 }
- _putchar('\n');
+_putchar('\n');
 }
 }
 }
 }
 }
-     
