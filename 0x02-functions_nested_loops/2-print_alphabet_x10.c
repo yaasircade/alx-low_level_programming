@@ -21,3 +21,4 @@ letter++;
 alph_count++;
 _putchar('\n');
 }
+}
